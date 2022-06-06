@@ -4,7 +4,7 @@ from app import app
 from app import forms
 
 
-#Pandas and Matplotlib
+
 import pandas as pd
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
@@ -12,7 +12,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-#other requirements
+#other requirements for the project
 import io
 import os
 import logging
